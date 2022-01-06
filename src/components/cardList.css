@@ -1,0 +1,14 @@
+.cardlist-container {
+  /* border: 3px solid black; */
+  height: 60vh;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 700px) {
+  .cardlist-container {
+    height: 76vh;
+  }
+}

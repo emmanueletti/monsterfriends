@@ -1,0 +1,10 @@
+.title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.loading {
+  text-align: center;
+  margin: 20% 0;
+}
