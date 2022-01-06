@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import CardList from '../components/CardList';
 import Search from '../components/Search';
+import ErrorBoundary from '../components/ErrorBoundary';
 
 import './app.css';
 
@@ -33,7 +34,9 @@ export default function App() {
       <h1 className='title'>MONSTER FRIENDS</h1>
       <Search updateFilteredRobots={updateFilteredRobots} />
       {appState.robots.length ? (
-        <CardList robots={appState.filteredRobots} />
+        <ErrorBoundary>
+          <CardList robots={appState.filteredRobots} />
+        </ErrorBoundary>
       ) : (
         <h1 className='loading'>Loading...</h1>
       )}

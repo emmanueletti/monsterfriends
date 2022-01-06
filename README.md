@@ -5,6 +5,7 @@ Simple project to practise basic React after many months of living in Dart/Flutt
 - state management
 - prop drilling
 - http via Axios
+- ErrorBoundary component
 
 ## Screenshots
 
