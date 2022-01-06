@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Monster Friends
 
-Simple project to practise basic React.
+Simple project to practise basic React after many months of living in Dart/Flutter.
 
 - state management
 - prop drilling
-- http
+- http via Axios
 
 ## Screenshots
 
